@@ -1,0 +1,13 @@
+# perhitungan.persegi
+
+package Pertemuan_5_Perhitungan;
+public class Persegi {
+    int luas ;
+    public int Luaspersegi (int sisi){
+    
+     luas =sisi*sisi;
+     return luas;
+    
+}
+    
+}
