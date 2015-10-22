@@ -1,0 +1,10 @@
+# perhitungan.lingkaran
+
+package Pertemuan_5_Perhitungan;
+public class Lingkaran {
+    double luas ;
+    public double luaslingkaran (double jarijari){
+        luas = 3.14*jarijari*jarijari;
+        return luas;
+    }
+}
