@@ -1,0 +1,21 @@
+#persegipanjang.view
+
+import Pertemuan_5_Perhitungan.Persegipanjang;
+
+public class PersegipanjangView extends javax.swing.JPanel {
+
+public PersegipanjangView() {
+        initComponents();
+    }
+    
+      private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {                                         
+        Persegipanjang a = new Persegipanjang();
+        int panjang = Integer.parseInt(jTextField1.getText());
+        int lebar = Integer.parseInt(jTextField2.getText());
+        
+        int hasil = (int) a. Luaspersegipanjang(panjang, lebar);
+        jLabel3.setText("Hasil = "+hasil);
+        
+    
+    }
+
