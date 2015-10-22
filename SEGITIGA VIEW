@@ -1,0 +1,19 @@
+# segitiga.view
+
+import Pertemuan_5_Perhitungan.Segitiga;
+
+public class SegitigaView extends javax.swing.JPanel {
+
+public SegitigaView() {
+        initComponents();
+    }
+    
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {                                         
+        Segitiga a = new Segitiga();
+        int alas = Integer.parseInt(jTextField1.getText());
+        int tinggi = Integer.parseInt(jTextField2.getText());
+        
+        double hasil = a.Luassegitiga(alas, tinggi);
+        jLabel2.setText("Hasil ="+hasil);
+      
+    }  
