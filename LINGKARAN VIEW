@@ -1,0 +1,20 @@
+# lingkaran.view
+
+import Pertemuan_5_Perhitungan.Lingkaran;
+
+public class LingkaranView extends javax.swing.JPanel {
+
+public class LingkaranView extends javax.swing.JPanel {
+
+public LingkaranView() {
+        initComponents();
+    }
+    
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {                                         
+        Lingkaran a = new Lingkaran();
+        double jarijari = Double.parseDouble(jTextField1.getText());
+        double hasil = a.luaslingkaran(jarijari);
+        
+        jLabel2.setText("HASIL="+ hasil);
+
+    }   
