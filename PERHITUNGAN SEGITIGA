@@ -1,0 +1,12 @@
+# perhitungan.segitiga
+
+package Pertemuan_5_Perhitungan;
+public class Segitiga {
+    double luas ;
+    public double Luassegitiga (int alas, int tinggi){
+        
+        luas = (alas*tinggi)/2;
+        return luas;
+    }
+    
+}
