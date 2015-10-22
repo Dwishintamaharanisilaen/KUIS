@@ -1,0 +1,18 @@
+# persegi.view
+
+import Pertemuan_5_Perhitungan.Persegi;
+
+public class PersegiView extends javax.swing.JPanel {
+
+ public PersegiView() {
+        initComponents();
+    }
+    
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {                                         
+        Persegi a = new Persegi();
+        int sisi = Integer.parseInt(jTextField1.getText());
+        int hasil = a. Luaspersegi(sisi);
+         jLabel2.setText("hasil="+hasil);
+         
+      
+    } 
